@@ -1,8 +1,4 @@
-Here's a sample `README.md` for a **Twitter Sentiment Analysis using NLP** project:
-
----
-
-# 🐦 Twitter Sentiment Analysis using NLP
+# 🐦 Twitter Sentiment Analysis using NLP by taking online twitter data (API's)
 
 This project performs sentiment analysis on tweets using Natural Language Processing (NLP) techniques. It classifies tweets into positive, negative, or neutral categories, helping to understand public sentiment around topics, brands, or events.
 
@@ -43,7 +39,7 @@ twitter-sentiment-analysis/
 ## ⚙️ How It Works
 
 1. **Collect Tweets**
-   Fetch tweets using `tweepy`, `snscrape`, or load from CSV.
+   Fetch tweets using `tweepy`, `snscrape`, or load data online sorce.
 
 2. **Preprocess Text**
    Clean tweets (remove mentions, hashtags, links), tokenize, remove stopwords, lemmatize/stem.
@@ -93,11 +89,3 @@ python main.py
 * Political sentiment tracking
 * Product feedback analysis
 * Crisis or event sentiment monitoring
-
-## 🛡️ License
-
-This project is licensed under the MIT License.
-
----
-
-Let me know if you want the README customized for a specific ML model (like BERT, LSTM, etc.) or deployment options (like Streamlit, Flask API).
